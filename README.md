@@ -4,21 +4,67 @@ A healthcare data visualization project demonstrating Power BI capabilities and 
 
 ## Project Overview
 
-This project analyzes national healthcare data using Power BI, with three interactive dashboard pages covering patient demographics, trends, and financial metrics.
+This project analyzes national healthcare data using Power BI, with three interactive dashboard pages covering patient demographics, trends, and financial metrics. The project demonstrates the complete data workflow from raw Excel data through Power Query transformation to interactive visualizations.
 
 ## Dashboard Preview
 
-### Patients Demographics
-![Patient Demographics](Screenshots/patientdemographics.png)
+![Healthcare Dashboard](Screenshots/healthdataviz_powerBI.gif)
 
-### Key Trends Analysis
-![Key Trends](Screenshots/key_trends.png)
+## Data Workflow
 
-### Treatment & Cost Analysis
-![Billing & Cost](Screenshots/billingcost.png)
+### 1. Data Source
+The project uses `Healthcare Analysis Dataset.xlsx` containing patient records with information about:
+- Patient demographics (age, gender, blood type)
+- Medical conditions and admission details
+- Treatment information and billing data
+- Hospital and doctor assignments
 
-### DAX Measures
-![DAX Formulas](Screenshots/PowerBIDax.png)
+### 2. Power Query Transformation
+The Excel data is imported into Power BI Desktop and processed through Power Query:
+- Data cleaning and type conversions
+- Column renaming for clarity
+- Filtering null or invalid records
+- Creating calculated columns for age groups and categorizations
+- Setting up proper date formats for time-based analysis
+
+### 3. Data Modeling
+After transformation, relationships are established:
+- Primary key relationships between tables (if multiple tables)
+- Date table creation for time intelligence
+- Calculated columns for segmentation
+- Optimized data types for performance
+
+### 4. DAX Measures
+Custom measures are created for analysis:
+- Total Patients count
+- Average Age calculations
+- Average Length of Stay (LOS)
+- Total Billing Amount aggregations
+- Conditional measures for filtered views
+- KPIs for abnormal and normal results
+
+### 5. Visualizations Across Three Pages
+
+**Page 1: Patient Demographics**
+- KPI cards showing total patients (55,500), rooms (400), billing amount ($25.5M), and doctors (40,341)
+- Demographic breakdown by age groups, blood type, and medical conditions
+- Interactive bookmark navigation for switching between demographic views
+- Bar charts showing average age and LOS by different demographic segments
+- Condition-specific analysis with visual indicators
+
+**Page 2: Key Trends**
+- Time-based trend analysis of healthcare metrics
+- Admission patterns and seasonal variations
+- Length of Stay (LOS) trends across different periods
+- Comparative analysis between medical conditions
+- Interactive filters for drilling down into specific timeframes
+
+**Page 3: Treatment & Cost Analysis**
+- Financial metrics showing billing distribution
+- Treatment cost analysis by condition and medication
+- Resource utilization tracking (doctors, rooms)
+- Cost efficiency indicators
+- Correlation between treatment types and outcomes
 
 ## Project Files
 
