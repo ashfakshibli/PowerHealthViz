@@ -38,16 +38,18 @@ This project analyzes national healthcare data using Power BI, showcasing key vi
 
 ## 🚀 How to View
 
-### Option 1: Download & Open (Full Interactivity)
-1. Download `National Health Analysis.pbix`
-2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-3. Interact with filters, slicers, and drill-through features
+### Option 1: View Demo Video 🎥
+**[▶️ Watch Interactive Dashboard Walkthrough](#)** *(Coming Soon)*  
+See the dashboard in action with full interactivity and explanations
 
-### Option 2: View Screenshots
-Browse the `Screenshots/` folder for static previews of all dashboard pages
+### Option 2: Download & Explore Locally (Full Interactivity)
+1. Download `National Health Analysis.pbix` from this repo
+2. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+3. Open the file and interact with filters, slicers, and drill-through features
+4. Explore all 3 dashboard pages
 
-### Option 3: Power BI Service (Live Link)
-*Coming soon - Dashboard will be published to Power BI Service for live interactive viewing*
+### Option 3: View Screenshots
+Browse the `Screenshots/` folder above or scroll up to see static previews of all dashboard pages
 
 ## 📈 Key Insights
 - **Patient Demographics** - Age groups, blood types, medical conditions distribution

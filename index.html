@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Healthcare Dashboard - Ashfak Shibli</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .screenshot {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .screenshot-container {
+            margin-bottom: 40px;
+        }
+        .screenshot-title {
+            font-size: 22px;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px 10px 10px 0;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #5568d3;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Power BI Healthcare Data Analysis</h1>
+        <p class="subtitle">Interactive Dashboard Demonstrating Advanced Power BI Skills</p>
+        
+        <div class="section">
+            <span class="badge">Power BI</span>
+            <span class="badge">DAX</span>
+            <span class="badge">Data Modeling</span>
+            <span class="badge">Interactive Dashboards</span>
+            <span class="badge">Healthcare Analytics</span>
+        </div>
+
+        <div class="section">
+            <h2>📊 Project Overview</h2>
+            <p>This comprehensive healthcare analytics project showcases advanced Power BI capabilities through three interactive dashboard pages analyzing national healthcare data. The project demonstrates data modeling, DAX calculations, and professional visualization techniques.</p>
+        </div>
+
+        <div class="section">
+            <a href="https://github.com/ashfakshibli/PowerHealthViz/raw/main/National%20Health%20Analysis.pbix" class="cta-button">📥 Download Dashboard (.pbix)</a>
+            <a href="https://github.com/ashfakshibli/PowerHealthViz" class="cta-button">📂 View on GitHub</a>
+        </div>
+
+        <div class="section">
+            <h2>🖼️ Dashboard Screenshots</h2>
+            
+            <div class="screenshot-container">
+                <h3 class="screenshot-title">1. Patient Demographics Dashboard</h3>
+                <img src="Screenshots/patientdemographics.png" alt="Patient Demographics" class="screenshot">
+                <p>Comprehensive view of patient distribution by age group, blood type, and medical conditions with interactive bookmark navigation.</p>
+            </div>
+
+            <div class="screenshot-container">
+                <h3 class="screenshot-title">2. Key Trends Analysis</h3>
+                <img src="Screenshots/key_trends.png" alt="Key Trends" class="screenshot">
+                <p>Temporal analysis of healthcare trends, admission patterns, and key performance indicators.</p>
+            </div>
+
+            <div class="screenshot-container">
+                <h3 class="screenshot-title">3. Treatment & Cost Analysis</h3>
+                <img src="Screenshots/billingcost.png" alt="Billing and Cost" class="screenshot">
+                <p>Financial insights including billing amounts, treatment costs, and resource utilization metrics.</p>
+            </div>
+
+            <div class="screenshot-container">
+                <h3 class="screenshot-title">4. DAX Measures & Calculations</h3>
+                <img src="Screenshots/PowerBIDax.png" alt="DAX Measures" class="screenshot">
+                <p>Custom DAX measures demonstrating advanced calculation capabilities.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Power BI Features Demonstrated</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Data Modeling</h3>
+                    <p>Relationships, calculated columns, and optimized data structure</p>
+                </div>
+                <div class="feature-card">
+                    <h3>DAX Measures</h3>
+                    <p>Custom calculations, aggregations, and KPI formulas</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Interactive Visuals</h3>
+                    <p>Charts, KPI cards, and custom visualizations</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Navigation</h3>
+                    <p>Bookmark-based navigation and multi-page layouts</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Filters & Slicers</h3>
+                    <p>Dynamic filtering across demographics and categories</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Power Query</h3>
+                    <p>ETL processes and data transformation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚀 How to Explore</h2>
+            <ol>
+                <li>Download the <code>.pbix</code> file using the button above</li>
+                <li>Install <a href="https://powerbi.microsoft.com/desktop/" target="_blank">Power BI Desktop</a> (free)</li>
+                <li>Open the file and interact with all features</li>
+                <li>Explore filters, slicers, and drill-through capabilities</li>
+            </ol>
+        </div>
+
+        <footer>
+            <p>Created by <strong>Ashfak Shibli</strong></p>
+            <p>📧 shibli.emon@gmail.com | 🔗 <a href="https://github.com/ashfakshibli">GitHub</a></p>
+            <p style="margin-top: 10px; font-size: 14px;">Project demonstrating Power BI proficiency for portfolio showcase</p>
+        </footer>
+    </div>
+</body>
+</html>
