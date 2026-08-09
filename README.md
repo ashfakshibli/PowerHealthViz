@@ -19,6 +19,12 @@ The project uses `Healthcare Analysis Dataset.xlsx` containing patient records w
 - Treatment information and billing data
 - Hospital and doctor assignments
 
+#### Provenance, license, and privacy
+
+The included workbook is derived from Prasad Patil's [Healthcare Dataset on Kaggle](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) (version 2). Kaggle identifies the upstream dataset as **CC0: Public Domain** and states that it was generated with Python's Faker library.
+
+All patient, clinician, hospital, and treatment records in this project are synthetic. They do not represent real people or real clinical encounters and must not be used for medical, clinical, or operational decisions. Source and license metadata were verified through Kaggle's public dataset API on August 8, 2026.
+
 ### 2. Power Query Transformation
 The Excel data is imported into Power BI Desktop and processed through Power Query:
 - Data cleaning and type conversions
